@@ -3,7 +3,7 @@ url: "coolwindjo.github.io"
 title: jekyll-rtd-theme
 lang: en
 description: Opinionated github flavored standard document theme for open source projects, with few options, but everything!
-
+repository: coolwindjo/coolwindjo.github.io
 theme: null
 
 # debug:
@@ -27,6 +27,10 @@ exclude:
   - LICENSE
   - requirements.txt
   - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
   - package.json
   - package-lock.json
   - webpack.config.js
