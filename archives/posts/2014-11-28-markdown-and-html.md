@@ -1,6 +1,8 @@
 ---
 title: Markdown and HTML
-tags: [Test, Markdown]
+tag:
+  - Test
+  - Markdown
 author: rohanchandra
 hidden: true
 ---
@@ -20,7 +22,7 @@ Content Cell  | Content Cell
 
 Here's an example of an image, which is included using Markdown:
 
-![Image of a glass on a book]({{ "/assets/img/pexels/book-glass.jpeg" | relative_url }})
+![Image of a glass on a book]({{ "/assets/images/pexels/book-glass.jpeg" | relative_url }})
 
 This is another example of list:
  

@@ -3,7 +3,9 @@ url: "coolwindjo.github.io"
 title: jekyll-rtd-theme
 lang: en
 description: Opinionated github flavored standard document theme for open source projects, with few options, but everything!
-repository: coolwindjo/coolwindjo.github.io
+relative_source: ../lut/
+destination: ./lut/_site/
+repository: coolwindjo/lut
 theme: null
 
 # debug:

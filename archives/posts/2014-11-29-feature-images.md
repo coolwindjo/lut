@@ -1,8 +1,10 @@
 ---
 title: Feature images
-feature-img: "assets/img/pexels/desk-messy.jpeg"
+feature-img: "assets/images/pexels/desk-messy.jpeg"
 thumbnail: "assets/thumbnails/pexels/desk-messy.jpeg"
-tags: [Test, Lorem]
+tag:
+  - Test
+  - Lorem
 ---
 
 Hopefully you will find enough information about how to set images in your blog here.
@@ -10,8 +12,8 @@ This is an example of a post which includes a feature image specified in the fro
 The feature image spans the full-width of the page, and is shown with the title on permalink pages:
 
 ```yaml
-feature-img: "assets/img/pexels/desk-messy.jpeg"
-thumbnail: "assets/img/thumbnails/desk-messy.jpeg" 
+feature-img: "assets/images/pexels/desk-messy.jpeg"
+thumbnail: "assets/images/thumbnails/desk-messy.jpeg" 
 ```
 
 You can also use a thumbnail, a smaller version of the same image to improve loading of the page.
@@ -21,7 +23,7 @@ The thumbnail will also be used when you share your article on other platform (l
 
 You can also add images aligned in your post using the `aligner` include.
 Make sure to separate all of the image path from in a string separated with `,`.
-It by default look into `assets/img/` so give the path from there, example:
+It by default look into `assets/images/` so give the path from there, example:
 
 {% highlight ruby %}
 {% raw %}
@@ -49,7 +51,7 @@ However you can just use the Markdown way of doing it to get the image normal si
 {% highlight ruby %}
 {% raw %}
 # Markdown way (bigger)
-![Travel]({{ "/assets/img/pexels/story.jpeg" | relative_url}})
+![Travel]({{ "/assets/images/pexels/story.jpeg" | relative_url}})
 # Aligner with only One (50% of width)
 {% include aligner.html images="pexels/story.jpeg" %}
 {% endraw %}

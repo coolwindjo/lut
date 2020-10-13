@@ -1,9 +1,11 @@
 ---
 layout: post
 title: Tech Stuff example
-feature-img: "assets/img/pexels/circuit.jpeg"
+feature-img: "assets/images/pexels/circuit.jpeg"
 thumbnail: "assets/thumbnails/pexels/circuit.jpeg"
-tags: [Test, Markdown]
+tag: 
+  - Test
+  - Markdown
 ---
 
 
@@ -141,7 +143,7 @@ url: "https://sylhare.github.io"
 # THEME-SPECIFIC CONFIGURATION
 title: Type on Strap                                    # site's title
 description: "A website with blog posts and pages"      # used by search engines
-avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
+avatar: assets/images/triangle.png                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
 remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github

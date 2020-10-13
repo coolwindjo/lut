@@ -3,7 +3,8 @@ layout: post
 title: Another test markdown
 subtitle: Each post also has a subtitle
 categories: markdown
-tags: [test]
+tag:
+  - Test
 ---
 
 Put the math expression within <span>$</span>...\$:
@@ -193,11 +194,11 @@ Bob -> Alice : hello
 
 # Video
 
-![](//www.youtube.com/watch?v=Ptk_1Dc2iPY)
+<!-- ![](//www.youtube.com/watch?v=Ptk_1Dc2iPY) -->
 
-![](https://avatars3.githubusercontent.com/hubot?v=3&amp;s=40)
+<!-- ![](https://avatars3.githubusercontent.com/hubot?v=3&amp;s=40) -->
 
-[\[video link\]](//www.youtube.com/watch?v=Ptk_1Dc2iPY)
+<!-- [\[video link\]](//www.youtube.com/watch?v=Ptk_1Dc2iPY) -->
 
 Tips:
 * Use pipes {% raw %}(`|`){% endraw %} to delineate columns, and dashes to delineate the header row from the rest of the table.

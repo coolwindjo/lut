@@ -1,7 +1,9 @@
 ---
 layout: post
 title: The Real Lorem Ipsum
-tags: [Lorem, Color]
+tag:
+  - Lorem
+  - Color
 color: turquoise
 excerpt_separator: <!--more-->
 ---

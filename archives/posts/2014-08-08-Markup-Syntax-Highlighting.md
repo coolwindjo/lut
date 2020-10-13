@@ -3,7 +3,8 @@ title: 'Markup: Syntax Highlighting'
 layout: post
 title: "Markup: Syntax Highlighting"
 author: mmistakes
-tags: [code]
+tag:
+  - code
 hidden: true
 ---
 
