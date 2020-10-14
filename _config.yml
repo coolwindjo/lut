@@ -1,11 +1,7 @@
-baseurl: "/lut"
-url: "coolwindjo.github.io"
-title: jekyll-rtd-theme
+title: lut
 lang: en
 description: Opinionated github flavored standard document theme for open source projects, with few options, but everything!
-relative_source: ../lut/
-destination: ./lut/_site/
-repository: coolwindjo/lut
+
 theme: null
 
 # debug:
